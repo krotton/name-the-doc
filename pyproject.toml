@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "namethedoc"
+version = "0.1.0"
+description = "A toy summarizer that generates helpful file names given document text"
+authors = ["Krzysztof Otto <krotton@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.38.1"
+torch = "^2.2.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
