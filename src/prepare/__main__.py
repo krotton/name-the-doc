@@ -5,7 +5,7 @@ Run as part of the build process.
 
 from transformers import pipeline
 
-from .. import config
+import config
 
 if __name__ == "__main__":
     print("Preparing the model...")
